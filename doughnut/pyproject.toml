@@ -1,0 +1,20 @@
+[project]
+name = "doughnut"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Tim Clark", email = "tim.clark@passivuk.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.36.12",
+    "pydantic>=2.10.6",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pyright]
+include = ["src"]
