@@ -84,7 +84,7 @@ wheels = [
 
 [[package]]
 name = "aws-cdk-lib"
-version = "2.177.0"
+version = "2.178.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aws-cdk-asset-awscli-v1" },
@@ -96,9 +96,9 @@ dependencies = [
     { name = "publication" },
     { name = "typeguard" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ca/bf/47c3c59636645d77ea1021bd2ffacba139165bebe4568c75a5248b740d84/aws_cdk_lib-2.177.0.tar.gz", hash = "sha256:5e51c48da31555beb38243bb2882e98ee9fe1796466ba9f8d3088701b47965e5", size = 38723662 }
+sdist = { url = "https://files.pythonhosted.org/packages/d9/08/de665455bf3ea97ba23f314b3849cb6f6fd6eafee68badb26127275475c2/aws_cdk_lib-2.178.0.tar.gz", hash = "sha256:88fdd1774084441024604057a725dcf342e1721d63e948b35a37d66101d77889", size = 39471828 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/fb/13/5875ae6d2fdbc4aea5650fc2fb89767cd4d7eeda1dcc9a449d904e47eff3/aws_cdk_lib-2.177.0-py3-none-any.whl", hash = "sha256:acdf06aaf52367a64b4bf88381e8272cb7b5961c242020ace822c79749e53cac", size = 39000486 },
+    { url = "https://files.pythonhosted.org/packages/9e/a5/cd06934e0867b5a550e59a99b990a5a9c54502105aa8914cb30a9aeeaf3b/aws_cdk_lib-2.178.0-py3-none-any.whl", hash = "sha256:b9e4f2946cd6219c1fc58ad16d123c4ba56b92e9502fbca2bc33c523ba77d54f", size = 39752246 },
 ]
 
 [[package]]
@@ -181,17 +181,19 @@ requires-dist = [
 
 [[package]]
 name = "doughnut-service"
-version = "2025.2.3"
+version = "2025.2.5"
 source = { editable = "doughnut_service" }
 dependencies = [
     { name = "aws-cdk-lib" },
     { name = "constructs" },
+    { name = "pst-foundation-service" },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "aws-cdk-lib", specifier = ">=2.177.0" },
     { name = "constructs", specifier = ">=10.4.2" },
+    { name = "pst-foundation-service", specifier = ">=2025.1.1" },
 ]
 
 [[package]]
@@ -255,6 +257,19 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/96/2d/02d4312c973c6050a18b314a5ad0b3210edb65a906f868e31c111dede4a6/pluggy-1.5.0.tar.gz", hash = "sha256:2cffa88e94fdc978c4c574f15f9e59b7f4201d439195c3715ca9e2486f1d0cf1", size = 67955 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/88/5f/e351af9a41f866ac3f1fac4ca0613908d9a41741cfcf2228f4ad853b697d/pluggy-1.5.0-py3-none-any.whl", hash = "sha256:44e1ad92c8ca002de6377e165f3e0f1be63266ab4d554740532335b9d75ea669", size = 20556 },
+]
+
+[[package]]
+name = "pst-foundation-service"
+version = "2025.1.1"
+source = { registry = "https://pst-cloud-services-961341521287.d.codeartifact.eu-west-2.amazonaws.com/pypi/pst-cloud-services/simple/" }
+dependencies = [
+    { name = "aws-cdk-lib" },
+    { name = "constructs" },
+]
+sdist = { url = "https://pst-cloud-services-961341521287.d.codeartifact.eu-west-2.amazonaws.com/pypi/pst-cloud-services/simple/pst-foundation-service/2025.1.1/pst_foundation_service-2025.1.1.tar.gz", hash = "sha256:ad6dc9d37ac8e00dbe756a90cb58c44ec2f5cebbf8b00591efc45a1a2583cc11" }
+wheels = [
+    { url = "https://pst-cloud-services-961341521287.d.codeartifact.eu-west-2.amazonaws.com/pypi/pst-cloud-services/simple/pst-foundation-service/2025.1.1/pst_foundation_service-2025.1.1-py3-none-any.whl", hash = "sha256:433827bea012ffc80a87a96e24037005d2bd58fa55e6f0f6879fcdb322c1889b" },
 ]
 
 [[package]]

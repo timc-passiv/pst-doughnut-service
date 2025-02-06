@@ -1,6 +1,6 @@
 [project]
 name = "doughnut_service"
-version = "2025.2.5"
+version = "2025.2.6"
 description = "Test service for doughnuts"
 readme = "README.md"
 authors = [
@@ -10,6 +10,7 @@ requires-python = ">=3.12"
 dependencies = [
     "aws-cdk-lib>=2.177.0",
     "constructs>=10.4.2",
+    "pst-foundation-service>=2025.1.1",
 ]
 
 [build-system]
