@@ -70,16 +70,16 @@ wheels = [
 
 [[package]]
 name = "aws-cdk-cloud-assembly-schema"
-version = "39.2.14"
+version = "39.2.16"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jsii" },
     { name = "publication" },
     { name = "typeguard" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0f/ca/507ae0a2e2f83c1f366edd72a2f784ca89c7d443b2963eff6dd0bf4c1b8d/aws_cdk_cloud_assembly_schema-39.2.14.tar.gz", hash = "sha256:5464c46c26b5fb31d9a151dcd28b6fe98289879d522b4e636748193554c5e598", size = 188296 }
+sdist = { url = "https://files.pythonhosted.org/packages/7f/7d/509bfbcf631246346a5e4a6dcd8e701585a881356af46cee0ecf94174467/aws_cdk_cloud_assembly_schema-39.2.16.tar.gz", hash = "sha256:bb1540a47638baa367ac328893cd86514c397b2f078148627072d9178d08eef5", size = 188293 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/af/c9/b5e92c5a0559adcda32cdfcdbb4eddb547e6bcadf9390dadfdccad8b2d6e/aws_cdk.cloud_assembly_schema-39.2.14-py3-none-any.whl", hash = "sha256:6a7287ee4f2108a942b9b50e639d1cda31688e97329fad230101e625c2edaf8c", size = 187287 },
+    { url = "https://files.pythonhosted.org/packages/3c/31/12ca16e259d40c5065496261b67a7ddbc0738d42545ed961db026b8012ad/aws_cdk.cloud_assembly_schema-39.2.16-py3-none-any.whl", hash = "sha256:5e5cb434ae903cf717493edd288415d594904c3ab6afe49d888046a4e4966258", size = 187283 },
 ]
 
 [[package]]
@@ -103,30 +103,30 @@ wheels = [
 
 [[package]]
 name = "boto3"
-version = "1.36.12"
+version = "1.36.14"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "botocore" },
     { name = "jmespath" },
     { name = "s3transfer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/04/2b/7365aab02b6768a9694ff43e0e5f1f83f205fc7fe253a410cda990425048/boto3-1.36.12.tar.gz", hash = "sha256:287d84f49bba3255a17b374578127d42b6251e72f55914a62e0ad9ca78c0954b", size = 111048 }
+sdist = { url = "https://files.pythonhosted.org/packages/20/78/2bef75ba63337615b9582287b47bdf577890b153a090cd69af6d3b89fef0/boto3-1.36.14.tar.gz", hash = "sha256:4b0b8dd593b95f32a5a761dee65094423fbd06a4ad09f26b2e6c80493139569f", size = 111021 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d0/0b/eb4d244ea84b0fd9e255286a30c98f37f8f28bbf6ea85f7f4b734bf929a9/boto3-1.36.12-py3-none-any.whl", hash = "sha256:32cdf0967287f3ec25a9dc09df0d29cb86b8900c3e0546a63d672775d8127abf", size = 139178 },
+    { url = "https://files.pythonhosted.org/packages/04/54/b78e82eba92b4cb9850887ea74974094209e4fe594d81e8fd4fb2fc9cba9/boto3-1.36.14-py3-none-any.whl", hash = "sha256:e2dab15944c3f517c88850d60b07f2f6fd3bc69aa51c47670e4f45d62a8c41fd", size = 139180 },
 ]
 
 [[package]]
 name = "botocore"
-version = "1.36.12"
+version = "1.36.14"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "jmespath" },
     { name = "python-dateutil" },
     { name = "urllib3" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/fe/54/cc9a665f92534aa105a49dd867f18d4eff4687835994a70a32a103fa11ae/botocore-1.36.12.tar.gz", hash = "sha256:86ed88beb4f244c96529435c868d3940073c2774116f0023fb7691f6e7053bd9", size = 13498321 }
+sdist = { url = "https://files.pythonhosted.org/packages/1e/e3/463a950de420536122744fc3798fd1d653453e6bb031ec3ffc5ca72dcd82/botocore-1.36.14.tar.gz", hash = "sha256:53feff270078c23ba852fb2638fde6c5f74084cfc019dd5433e865cd04065c60", size = 13498715 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/92/3a/5e19d1d1896e86bb9c25f31f5f05ff2e8f40727aa66ee6149b545d3e28b0/botocore-1.36.12-py3-none-any.whl", hash = "sha256:5ae1ed362c8ed908a6ced8cdd12b21e2196c100bc79f9e95c9c1fc7f9ea74f5a", size = 13328293 },
+    { url = "https://files.pythonhosted.org/packages/d6/0e/fda43b7e7e969f9450d86ec7825a1b6be6910b854d4fff4e1367ad58e0ca/botocore-1.36.14-py3-none-any.whl", hash = "sha256:546d0c071e9c8aeaca399d71bec414abe6434460f7d6640cbd92d4b1c3eb443e", size = 13331077 },
 ]
 
 [[package]]
@@ -181,7 +181,7 @@ requires-dist = [
 
 [[package]]
 name = "doughnut-service"
-version = "2025.2.5"
+version = "2025.2.6"
 source = { editable = "doughnut_service" }
 dependencies = [
     { name = "aws-cdk-lib" },
@@ -193,7 +193,7 @@ dependencies = [
 requires-dist = [
     { name = "aws-cdk-lib", specifier = ">=2.177.0" },
     { name = "constructs", specifier = ">=10.4.2" },
-    { name = "pst-foundation-service", specifier = ">=2025.1.1" },
+    { name = "pst-foundation-service", specifier = "==2025.1.1" },
 ]
 
 [[package]]
