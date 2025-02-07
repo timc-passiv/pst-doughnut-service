@@ -1,6 +1,6 @@
 [project]
 name = "doughnut_service"
-version = "2025.2.6"
+version = "2025.2.7"
 description = "Test service for doughnuts"
 readme = "README.md"
 authors = [
